@@ -57,7 +57,7 @@ class KanbanBoardApp extends Component {
     })
 
     const updateBoardTasks = kanbanBoards[boardIndex].taskCards.filter(
-      eachTask => eachTask.id !== taskId && eachTask.id !== 1,
+      eachTask => eachTask.id !== taskId,
     )
     kanbanBoards[boardIndex].taskCards = updateBoardTasks
     this.setState({
