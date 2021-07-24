@@ -1,10 +1,10 @@
 import {Component} from 'react'
 import {AiTwotoneDelete} from 'react-icons/ai'
-import KabbanTask from '../KabbanTask'
+import KanbanTask from '../KanbanTask'
 
 import './index.css'
 
-class KabbanBoard extends Component {
+class KanbanBoard extends Component {
   state = {
     newTask: '',
   }
@@ -52,7 +52,7 @@ class KabbanBoard extends Component {
           {taskCards.map(eachTask => {
             if (eachTask.task !== '') {
               return (
-                <KabbanTask
+                <KanbanTask
                   boardDetails={boardDetails}
                   taskInfo={eachTask}
                   deleteTask={deleteTask}
@@ -83,4 +83,4 @@ class KabbanBoard extends Component {
   }
 }
 
-export default KabbanBoard
+export default KanbanBoard

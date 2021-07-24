@@ -1,7 +1,7 @@
-import KabbanBoardApp from './components/KabbanBoardApp'
+import KanbanBoardApp from './components/KanbanBoardApp'
 
 import './App.css'
 
-const App = () => <KabbanBoardApp />
+const App = () => <KanbanBoardApp />
 
 export default App

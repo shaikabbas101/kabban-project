@@ -1,7 +1,7 @@
 import {MdDelete} from 'react-icons/md'
 import './index.css'
 
-const KabbanTask = props => {
+const KanbanTask = props => {
   const {taskInfo, boardDetails, deleteTask} = props
   const boardId = boardDetails.id
   const {task, id} = taskInfo
@@ -18,4 +18,4 @@ const KabbanTask = props => {
   )
 }
 
-export default KabbanTask
+export default KanbanTask
