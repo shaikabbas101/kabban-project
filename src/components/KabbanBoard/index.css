@@ -1,0 +1,52 @@
+.board-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #c7e7eb;
+  border: none;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.board-name {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.task-input-and-btn-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+.task-input-field {
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  outline: 1px solid #a1c6d1;
+}
+.add-task-btn {
+  background-color: #00b3ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 32px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.board-name-and-delete-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.del-icon {
+  background-color: transparent;
+  border: none;
+  align-self: flex-start;
+  color: #fc0303;
+  cursor: pointer;
+}

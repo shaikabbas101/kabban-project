@@ -1,0 +1,40 @@
+.nav-bar {
+  background-color: blue;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.nav-heading {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.board-input-container {
+  margin: 15px;
+}
+.board-input {
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: skyblue;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.create-board-btn {
+  border-radius: 10px;
+  border: none;
+  background-color: orange;
+  height: 32px;
+  width: 100px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.boards-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  min-height: 500px;
+}
